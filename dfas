@@ -1,0 +1,86 @@
+[1mdiff --git a/gitPractice/myPractice.txt b/gitPractice/myPractice.txt[m
+[1mindex 6ed94f7..ffe8d28 100644[m
+[1m--- a/gitPractice/myPractice.txt[m
+[1m+++ b/gitPractice/myPractice.txt[m
+[36m@@ -1,2 +1,6 @@[m
+ Created by Mr. M[m
+ Rev 1.0[m
+[32m+[m[32mchanged stuff on 01 feb 2019[m
+[32m+[m[32m-------------[m
+[32m+[m
+[32m+[m[32mToday is tuesday the 5th[m
+[1mdiff --git a/s201AP3/bin/APFR4.class b/s201AP3/bin/APFR4.class[m
+[1mdeleted file mode 100644[m
+[1mindex cb448c0..0000000[m
+Binary files a/s201AP3/bin/APFR4.class and /dev/null differ
+[1mdiff --git a/s201AP3/src/APFR4.java b/s201AP3/src/APFR4.java[m
+[1mdeleted file mode 100644[m
+[1mindex 46ceb0c..0000000[m
+[1m--- a/s201AP3/src/APFR4.java[m
+[1m+++ /dev/null[m
+[36m@@ -1,65 +0,0 @@[m
+[31m-[m
+[31m-public class APFR4 {[m
+[31m-	[m
+[31m-[m
+[31m-	public static int[] getColumn(int[][] arr2D, int c)[m
+[31m-	{[m
+[31m-		int[] result = new int[arr2D.length];[m
+[31m-		[m
+[31m-		for (int r = 0; r < arr2D.length; r++)[m
+[31m-		{[m
+[31m-			result[r] = arr2D[r][c];[m
+[31m-		}[m
+[31m-		[m
+[31m-		return result;[m
+[31m-		[m
+[31m-	}[m
+[31m-	public static void main(String[] args) {[m
+[31m-		[m
+[31m-		int[][] arr2D = { { 0, 1, 2 }, { 3, 4, 5 }, { 6, 7, 8 }, { 9, 5, 3} };[m
+[31m-		[m
+[31m-		int[] result = getColumn(arr2D, 1);[m
+[31m-		System.out.println(result);[m
+[31m-[m
+[31m-	}[m
+[31m-	/**[m
+[31m-	 * makes new int array of size arr2D.length +1[m
+[31m-	 * [m
+[31m-	 * [m
+[31m-	 * [m
+[31m-	 * @param square[m
+[31m-	 * @return[m
+[31m-	 */[m
+[31m-	/*****[m
+[31m-	public static boolean isLatin(int[][] square)[m
+[31m-	{[m
+[31m-		if (containsDuplicates(square[0]))[m
+[31m-		{[m
+[31m-			return false;[m
+[31m-		}[m
+[31m-		[m
+[31m-		for (int r = 1; r < square.length; r++)[m
+[31m-		{[m
+[31m-			if (!hasAllValues(square[0], square[r]))[m
+[31m-			{[m
+[31m-				return false;[m
+[31m-			}[m
+[31m-		}[m
+[31m-		[m
+[31m-		for (int c = 0; c < square[0].length; c++)[m
+[31m-		{[m
+[31m-			if (!hasAllValues(square[0], getColumn(square, c)))[m
+[31m-			{[m
+[31m-				return false;[m
+[31m-			}[m
+[31m-		}[m
+[31m-		return true;[m
+[31m-	}[m
+[31m-[m
+[31m-	public static void main(String[] args) {[m
+[31m-		[m
+[31m-[m
+[31m-	}[m
+[31m-[m
+[31m-	*/[m
+[31m-}[m

@@ -1,6 +1,12 @@
 
-public class APFR4 {
-	
+public class ArrayTester {
+	/**
+	 * @author Luke Warner
+	 * 
+	 * @param arr2D
+	 * @param c
+	 * @return
+	 */
 
 	public static int[] getColumn(int[][] arr2D, int c)
 	{
@@ -20,17 +26,17 @@ public class APFR4 {
 		
 		int[] result = getColumn(arr2D, 1);
 		System.out.println(result);
+		System.out.println(getColumn(arr2D, 1));
 
 	}
 	/**
 	 * makes new int array of size arr2D.length +1
 	 * 
 	 * 
-	 * 
 	 * @param square
 	 * @return
 	 */
-	/*****
+	/**
 	public static boolean isLatin(int[][] square)
 	{
 		if (containsDuplicates(square[0]))
